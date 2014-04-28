@@ -60,6 +60,6 @@ unzip("UCI HAR Dataset.zip")
 
 Step-2
 ======
-Merge data
+Merge data using cbing and rbind calls.
 
-
+##Forgot to attach average-data.txt which can be found here "https://github.com/allene/coursera-getdata002/blob/master/average-data.txt"
