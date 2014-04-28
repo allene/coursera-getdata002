@@ -4,7 +4,7 @@
 #download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip","UCI HAR Dataset.zip")
 #unzip the file
 #unzip("UCI HAR Dataset.zip")
-setwd("C:\\Users\\ballene\\Documents\\Coursera\\DataScience\\UCI HAR Dataset")
+setwd("C:\\Users\\abcxyz\\Documents\\Coursera\\DataScience\\UCI HAR Dataset")
 featuresData <- read.table("features.txt", colClasses=c("NULL", "character"))[[1]]
 boolFeaturesDataStd <- grepl("std()", featuresData, fixed=T)
 boolFeaturesDataMean <- grepl("mean()", featuresData, fixed=T)
@@ -52,4 +52,4 @@ library(reshape2)
 averageData <- melt(averageData, id.vars = c("subject", "activityData"),  variable.name = "feature",   value.name = "mean")
 
 #Store the data
-write.table(averageData, file="average.data.txt", sep="\t", row.names=F)
+write.table(averageData, file="average-data.txt", sep="\t", row.names=F)
