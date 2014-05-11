@@ -1,5 +1,5 @@
 #Set a working directory
-#setwd("C:\\Users\\ballene\\Documents\\Coursera\\DataScience")
+#setwd("C:\\Users\\abcxyz\\Documents\\Coursera\\DataScience")
 #Download data for the assignment: 
 #download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip","UCI HAR Dataset.zip")
 #unzip the file
